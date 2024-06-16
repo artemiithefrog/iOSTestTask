@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B3EFD22C1F533A009A2036 /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3EFD12C1F533A009A2036 /* MediaDetailView.swift */; };
+		16B3EFF02C1F7AA3009A2036 /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3EFEF2C1F7AA3009A2036 /* LivePhoto.swift */; };
+		16B3EFF32C1F7E81009A2036 /* AmplitudeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16B3EFF22C1F7E81009A2036 /* AmplitudeSwift */; };
 		16B897932C1EEB490012B2FC /* iOSTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897922C1EEB490012B2FC /* iOSTestTaskApp.swift */; };
 		16B897952C1EEB490012B2FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897942C1EEB490012B2FC /* ContentView.swift */; };
 		16B897972C1EEB4A0012B2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B897962C1EEB4A0012B2FC /* Assets.xcassets */; };
 		16B8979A2C1EEB4A0012B2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B897992C1EEB4A0012B2FC /* Preview Assets.xcassets */; };
+		16B897A32C1EEC830012B2FC /* ScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897A22C1EEC830012B2FC /* ScreenViewModel.swift */; };
+		16B897A52C1EECB40012B2FC /* FirstPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897A42C1EECB40012B2FC /* FirstPaywallView.swift */; };
+		16B897A72C1EECC40012B2FC /* SecondPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897A62C1EECC40012B2FC /* SecondPaywallView.swift */; };
+		16B897AD2C1EF9380012B2FC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897AC2C1EF9370012B2FC /* Colors.swift */; };
+		16B897AF2C1EFB120012B2FC /* FirstPaywallItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897AE2C1EFB120012B2FC /* FirstPaywallItem.swift */; };
+		16B897B42C1F09AB0012B2FC /* BestChoiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897B32C1F09AB0012B2FC /* BestChoiseButton.swift */; };
+		16B897B62C1F09C40012B2FC /* AccessStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897B52C1F09C40012B2FC /* AccessStick.swift */; };
+		16B897B82C1F0A020012B2FC /* AccessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897B72C1F0A020012B2FC /* AccessInfo.swift */; };
+		16B897BA2C1F0A890012B2FC /* OneWeekButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897B92C1F0A890012B2FC /* OneWeekButton.swift */; };
+		16B897BD2C1F0DBA0012B2FC /* ContiuneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897BC2C1F0DBA0012B2FC /* ContiuneButton.swift */; };
+		16B897BF2C1F11C40012B2FC /* XmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897BE2C1F11C40012B2FC /* XmarkButton.swift */; };
+		16B897C32C1F16600012B2FC /* ManWithBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897C22C1F16600012B2FC /* ManWithBook.swift */; };
+		16B897C62C1F18050012B2FC /* BestChoiseButtonSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897C52C1F18050012B2FC /* BestChoiseButtonSecond.swift */; };
+		16B897C82C1F19E70012B2FC /* TwelveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897C72C1F19E70012B2FC /* TwelveButton.swift */; };
+		16B897CA2C1F1B0E0012B2FC /* ContinueButtonSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897C92C1F1B0D0012B2FC /* ContinueButtonSecond.swift */; };
+		16B897CC2C1F1FCC0012B2FC /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897CB2C1F1FCC0012B2FC /* MediaItem.swift */; };
+		16B897CE2C1F1FED0012B2FC /* MediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897CD2C1F1FED0012B2FC /* MediaViewModel.swift */; };
+		16B897D12C1F20200012B2FC /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897D02C1F20200012B2FC /* MediaListView.swift */; };
+		16B897D62C1F22500012B2FC /* MediaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897D52C1F22500012B2FC /* MediaService.swift */; };
+		16B897D82C1F22F30012B2FC /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B897D72C1F22F30012B2FC /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B3EFD12C1F533A009A2036 /* MediaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		16B3EFEF2C1F7AA3009A2036 /* LivePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
 		16B8978F2C1EEB490012B2FC /* iOSTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B897922C1EEB490012B2FC /* iOSTestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestTaskApp.swift; sourceTree = "<group>"; };
 		16B897942C1EEB490012B2FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16B897962C1EEB4A0012B2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16B897992C1EEB4A0012B2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16B897A22C1EEC830012B2FC /* ScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewModel.swift; sourceTree = "<group>"; };
+		16B897A42C1EECB40012B2FC /* FirstPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPaywallView.swift; sourceTree = "<group>"; };
+		16B897A62C1EECC40012B2FC /* SecondPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPaywallView.swift; sourceTree = "<group>"; };
+		16B897A92C1EF41E0012B2FC /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		16B897AA2C1EF4500012B2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16B897AC2C1EF9370012B2FC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		16B897AE2C1EFB120012B2FC /* FirstPaywallItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPaywallItem.swift; sourceTree = "<group>"; };
+		16B897B32C1F09AB0012B2FC /* BestChoiseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestChoiseButton.swift; sourceTree = "<group>"; };
+		16B897B52C1F09C40012B2FC /* AccessStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessStick.swift; sourceTree = "<group>"; };
+		16B897B72C1F0A020012B2FC /* AccessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessInfo.swift; sourceTree = "<group>"; };
+		16B897B92C1F0A890012B2FC /* OneWeekButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWeekButton.swift; sourceTree = "<group>"; };
+		16B897BC2C1F0DBA0012B2FC /* ContiuneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiuneButton.swift; sourceTree = "<group>"; };
+		16B897BE2C1F11C40012B2FC /* XmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmarkButton.swift; sourceTree = "<group>"; };
+		16B897C22C1F16600012B2FC /* ManWithBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManWithBook.swift; sourceTree = "<group>"; };
+		16B897C52C1F18050012B2FC /* BestChoiseButtonSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestChoiseButtonSecond.swift; sourceTree = "<group>"; };
+		16B897C72C1F19E70012B2FC /* TwelveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveButton.swift; sourceTree = "<group>"; };
+		16B897C92C1F1B0D0012B2FC /* ContinueButtonSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonSecond.swift; sourceTree = "<group>"; };
+		16B897CB2C1F1FCC0012B2FC /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		16B897CD2C1F1FED0012B2FC /* MediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewModel.swift; sourceTree = "<group>"; };
+		16B897D02C1F20200012B2FC /* MediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
+		16B897D52C1F22500012B2FC /* MediaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaService.swift; sourceTree = "<group>"; };
+		16B897D72C1F22F30012B2FC /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +73,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B3EFF32C1F7E81009A2036 /* AmplitudeSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B3EFEE2C1F7A97009A2036 /* LivePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				16B3EFEF2C1F7AA3009A2036 /* LivePhoto.swift */,
+			);
+			path = LivePhoto;
+			sourceTree = "<group>";
+		};
 		16B897862C1EEB490012B2FC = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +107,15 @@
 		16B897912C1EEB490012B2FC /* iOSTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				16B897AA2C1EF4500012B2FC /* Info.plist */,
 				16B897922C1EEB490012B2FC /* iOSTestTaskApp.swift */,
-				16B897942C1EEB490012B2FC /* ContentView.swift */,
+				16B3EFEE2C1F7A97009A2036 /* LivePhoto */,
+				16B897D42C1F22420012B2FC /* Service */,
+				16B897B02C1EFB5A0012B2FC /* Models */,
+				16B897AB2C1EF92E0012B2FC /* Colors */,
+				16B897A82C1EF3DE0012B2FC /* Fonts */,
+				16B897A12C1EEC740012B2FC /* ViewModel */,
+				16B897A02C1EEC6F0012B2FC /* Views */,
 				16B897962C1EEB4A0012B2FC /* Assets.xcassets */,
 				16B897982C1EEB4A0012B2FC /* Preview Content */,
 			);
@@ -65,6 +128,127 @@
 				16B897992C1EEB4A0012B2FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16B897A02C1EEC6F0012B2FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16B897CF2C1F200A0012B2FC /* Media */,
+				16B897942C1EEB490012B2FC /* ContentView.swift */,
+				16B897B12C1F051A0012B2FC /* FirstPaywall */,
+				16B897C02C1F14B60012B2FC /* SecondPaywall */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16B897A12C1EEC740012B2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16B897A22C1EEC830012B2FC /* ScreenViewModel.swift */,
+				16B897CD2C1F1FED0012B2FC /* MediaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16B897A82C1EF3DE0012B2FC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				16B897A92C1EF41E0012B2FC /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		16B897AB2C1EF92E0012B2FC /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				16B897AC2C1EF9370012B2FC /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		16B897B02C1EFB5A0012B2FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16B897AE2C1EFB120012B2FC /* FirstPaywallItem.swift */,
+				16B897CB2C1F1FCC0012B2FC /* MediaItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16B897B12C1F051A0012B2FC /* FirstPaywall */ = {
+			isa = PBXGroup;
+			children = (
+				16B897A42C1EECB40012B2FC /* FirstPaywallView.swift */,
+				16B897B22C1F098E0012B2FC /* Custom elements */,
+			);
+			path = FirstPaywall;
+			sourceTree = "<group>";
+		};
+		16B897B22C1F098E0012B2FC /* Custom elements */ = {
+			isa = PBXGroup;
+			children = (
+				16B897BB2C1F0D9F0012B2FC /* Buttons */,
+				16B897B52C1F09C40012B2FC /* AccessStick.swift */,
+				16B897B72C1F0A020012B2FC /* AccessInfo.swift */,
+			);
+			path = "Custom elements";
+			sourceTree = "<group>";
+		};
+		16B897BB2C1F0D9F0012B2FC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				16B897B32C1F09AB0012B2FC /* BestChoiseButton.swift */,
+				16B897B92C1F0A890012B2FC /* OneWeekButton.swift */,
+				16B897BC2C1F0DBA0012B2FC /* ContiuneButton.swift */,
+				16B897BE2C1F11C40012B2FC /* XmarkButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		16B897C02C1F14B60012B2FC /* SecondPaywall */ = {
+			isa = PBXGroup;
+			children = (
+				16B897A62C1EECC40012B2FC /* SecondPaywallView.swift */,
+				16B897C12C1F164C0012B2FC /* CustomElements */,
+			);
+			path = SecondPaywall;
+			sourceTree = "<group>";
+		};
+		16B897C12C1F164C0012B2FC /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				16B897C22C1F16600012B2FC /* ManWithBook.swift */,
+				16B897C42C1F17E30012B2FC /* Buttons */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		16B897C42C1F17E30012B2FC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				16B897C52C1F18050012B2FC /* BestChoiseButtonSecond.swift */,
+				16B897C72C1F19E70012B2FC /* TwelveButton.swift */,
+				16B897C92C1F1B0D0012B2FC /* ContinueButtonSecond.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		16B897CF2C1F200A0012B2FC /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				16B897D02C1F20200012B2FC /* MediaListView.swift */,
+				16B3EFD12C1F533A009A2036 /* MediaDetailView.swift */,
+				16B897D72C1F22F30012B2FC /* VideoPlayerView.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		16B897D42C1F22420012B2FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				16B897D52C1F22500012B2FC /* MediaService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +267,9 @@
 			dependencies = (
 			);
 			name = iOSTestTask;
+			packageProductDependencies = (
+				16B3EFF22C1F7E81009A2036 /* AmplitudeSwift */,
+			);
 			productName = iOSTestTask;
 			productReference = 16B8978F2C1EEB490012B2FC /* iOSTestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 16B897862C1EEB490012B2FC;
+			packageReferences = (
+				16B3EFF12C1F7E81009A2036 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */,
+			);
 			productRefGroup = 16B897902C1EEB490012B2FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +327,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B897C82C1F19E70012B2FC /* TwelveButton.swift in Sources */,
+				16B897BD2C1F0DBA0012B2FC /* ContiuneButton.swift in Sources */,
+				16B897CC2C1F1FCC0012B2FC /* MediaItem.swift in Sources */,
+				16B897D82C1F22F30012B2FC /* VideoPlayerView.swift in Sources */,
 				16B897952C1EEB490012B2FC /* ContentView.swift in Sources */,
+				16B897AD2C1EF9380012B2FC /* Colors.swift in Sources */,
+				16B897B62C1F09C40012B2FC /* AccessStick.swift in Sources */,
+				16B897CA2C1F1B0E0012B2FC /* ContinueButtonSecond.swift in Sources */,
+				16B897BF2C1F11C40012B2FC /* XmarkButton.swift in Sources */,
+				16B897A32C1EEC830012B2FC /* ScreenViewModel.swift in Sources */,
+				16B897BA2C1F0A890012B2FC /* OneWeekButton.swift in Sources */,
+				16B897A52C1EECB40012B2FC /* FirstPaywallView.swift in Sources */,
+				16B897CE2C1F1FED0012B2FC /* MediaViewModel.swift in Sources */,
+				16B897B82C1F0A020012B2FC /* AccessInfo.swift in Sources */,
+				16B897D12C1F20200012B2FC /* MediaListView.swift in Sources */,
+				16B897C62C1F18050012B2FC /* BestChoiseButtonSecond.swift in Sources */,
+				16B897A72C1EECC40012B2FC /* SecondPaywallView.swift in Sources */,
+				16B3EFD22C1F533A009A2036 /* MediaDetailView.swift in Sources */,
 				16B897932C1EEB490012B2FC /* iOSTestTaskApp.swift in Sources */,
+				16B897C32C1F16600012B2FC /* ManWithBook.swift in Sources */,
+				16B3EFF02C1F7AA3009A2036 /* LivePhoto.swift in Sources */,
+				16B897B42C1F09AB0012B2FC /* BestChoiseButton.swift in Sources */,
+				16B897AF2C1EFB120012B2FC /* FirstPaywallItem.swift in Sources */,
+				16B897D62C1F22500012B2FC /* MediaService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +487,9 @@
 				DEVELOPMENT_TEAM = KLU4RK8QNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSTestTask/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "we want to save live photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "save livephoto to the gallary";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +519,9 @@
 				DEVELOPMENT_TEAM = KLU4RK8QNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSTestTask/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "we want to save live photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "save livephoto to the gallary";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +562,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16B3EFF12C1F7E81009A2036 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16B3EFF22C1F7E81009A2036 /* AmplitudeSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16B3EFF12C1F7E81009A2036 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */;
+			productName = AmplitudeSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16B897872C1EEB490012B2FC /* Project object */;
 }

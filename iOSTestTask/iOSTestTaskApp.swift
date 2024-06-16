@@ -11,7 +11,10 @@ import SwiftUI
 struct iOSTestTaskApp: App {
     var body: some Scene {
         WindowGroup {
+//            For paywalls
             ContentView()
+//            For Media
+//            MediaListView()
         }
     }
 }
